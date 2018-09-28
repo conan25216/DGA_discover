@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5df4d88f-c6ff-4151-80d8-3d53c0b08103" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../DNS/code/DGA_Classifier/candidate_family_hosts.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DNS/code/DGA_Classifier/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DNS/code/DGA_Classifier/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DNS/code/data_deal/drop_alexa_top.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DNS/code/data_deal/drop_alexa_top.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DNS/code/data_deal/split_after_drop_alexa.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DNS/code/data_deal/split_after_drop_alexa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DNS/code/python-xmeans/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DNS/code/python-xmeans/main.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-92813764">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/../DNS/code/disposable-email-domains/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/binary/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/buffers/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/chainsaw/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/csv2/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/fstream/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/match-stream/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/natives/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/over/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/pullstream/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/setimmediate/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/slice-stream/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/traverse/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/unzip/package.json" />
+      <path value="$PROJECT_DIR$/../DNS/js/node_modules/wrappy/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="130" />
+    <option name="y" value="90" />
+    <option name="width" value="1657" />
+    <option name="height" value="934" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DNS1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DNS1" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="DNS1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DNS1" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="DNS1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DNS1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DNS1" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="DNS" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5df4d88f-c6ff-4151-80d8-3d53c0b08103" name="Default Changelist" comment="" />
+      <created>1536830700217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536830700217</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="130" y="90" width="1657" height="934" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2526381" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>
