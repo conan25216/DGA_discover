@@ -1,2 +1,6 @@
 (1)找到所有可疑的DGA:
+    (0) 基于域名字符特征的(找到所有可疑DGA域名)
+
     (a) 基于访问关系, 时间序列(5分钟)
+        每5分钟一个NXdomain文件, 够造host-domains, domain-hosts
+    (b) 去掉host-domains中domain个数少于5个的
