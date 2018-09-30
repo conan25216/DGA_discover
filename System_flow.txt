@@ -1,7 +1,20 @@
 (1)找到所有可疑的DGA:
     (a) 基于域名字符特征的(找到所有可疑DGA域名)
-        （全）定义：(1)单位时间（5分钟）有单个host访问的domains具有50%（或2个）以上不可读，该domains是一个可疑的dgas（簇），阈值取低一点，尽量找全
+        （全）定义：(1)单位时间（5分钟）有单个host访问的domains具有50%（或2个）以上不可读，该domains是一个可疑的dgas（簇）(阈值取低一点，尽量找全)
                   (2)且每个domain的main_domain长度大于9
+        /mnt/Work/DNS1/code/data_deal: python get_host_domains.py
+
+
     (b) 基于访问关系, 时间序列(5分钟)
+        每5分钟一个active文件,构造host-activeDomains, 找与发现可疑的host一样的作为剪枝策略.
+        /mnt/Work/DNS/data/raw_data:
+
         每5分钟一个NXdomain文件, 构造host-domains, domain-hosts
+
     (c) 去掉host-domains中domain个数少于5个的
+
+    (d) DGAchrive(用做验证)
+
+
+
+
