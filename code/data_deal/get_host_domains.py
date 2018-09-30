@@ -64,12 +64,13 @@ def get_candicate_host_domains():
 
         count = 0
         for sip, domains in sorted(sip_domains.items(), key=lambda x: len(x[1]), reverse=True):
-            main_domains = [tldextract.extract(domain_1).domain for domain_1 in domains]
+            # main_domains = [tldextract.extract(domain_1).domain for domain_1 in domains]
             # main_domains = ['.'.join(tldextract.extract(domain_1)[:2]).replace('.', '') for domain_1 in domains]
-            # print("{}: {}".format(sip, main_domains))
-            if Counter([int(gib_detect_train.avg_transition_prob(l, model_mat) > threshold ) if len(l) > 9 else 1 for l in main_domains])[0] > 2:
+            domain_value = {l: int(gib_detect_train.avg_transition_prob(tldextract.extract(l).domain, model_mat) > threshold ) if len(tldextract.extract(l).domain) > 9 else 1 for l in domains}
+            if len([k_v[0] for k_v in domain_value.items() if k_v[1]==0]) > 2:
+            # if Counter([int(gib_detect_train.avg_transition_prob(l, model_mat) > threshold ) if len(l) > 9 else 1 for l in main_domains])[0] > 2:
                 # print("{}: {}".format(sip, domains))
-                results[sip] = list(domains)
+                results[sip] = [k_v[0] for k_v in domain_value.items() if k_v[1]==0]
                 count += 1
         print(count)
         with open(file_out, "w") as f_out:
