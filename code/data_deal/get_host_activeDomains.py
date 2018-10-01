@@ -12,7 +12,7 @@ def ipv4_addr_check(ipAddr):
     else:
         return False
 
-def get_host_activeDomains():
+def get_host_activeDomains(sips_to_find):
     '''
     {
     "1.1.1.1":{
@@ -34,8 +34,6 @@ def get_host_activeDomains():
     '''
 
     host_domain_ips = defaultdict(lambda : dict())
-    domain_ips = defaultdict(lambda : set())
-
     i = 0
     f_in = open(file, "r")
     for row in f_in:
@@ -47,13 +45,13 @@ def get_host_activeDomains():
         if items[15] != "A": # only reserve the A type
             continue
         sip = items[0]
+        if sip not in sips_to_find:
+            continue
         domain = items[3]
         ips = items[19].split(";")
 
         ips = list(filter(ipv4_addr_check, ips))
         # print("{}, {}, {}".format(sip, domain, ips))
-
-        domain_ips[domain] = set(ips)
 
         if sip in host_domain_ips:
             domain_ips_1 = host_domain_ips[sip]
@@ -64,13 +62,15 @@ def get_host_activeDomains():
             host_domain_ips[sip] = domain_ips_1
 
         else:
-            host_domain_ips[sip] =domain_ips
+            domain_ips = defaultdict(lambda : set())
+            domain_ips[domain] = set(ips)
+            host_domain_ips[sip] = domain_ips
 
 
     for sip in host_domain_ips:
         domain_ips = host_domain_ips[sip]
         for domain in domain_ips:
-            host_domain_ips[sip][domain] = list(domain_ips[domain])
+            host_domain_ips[sip][domain] = list(host_domain_ips[sip][domain])
 
     # show for comprehension
     # for sip in host_domain_ips:
@@ -82,12 +82,13 @@ def get_host_activeDomains():
 
     f_in.close()
 
-    file_out = "host_domain_ips.json"
+    file_out = "201711040000_host_activeDomain_ips.json"
     f_out = open(file_out, "w")
     json.dump(host_domain_ips, f_out, indent=8)
     f_out.close()
 
 
 if __name__ == "__main__":
-    get_host_activeDomains()
+    sips_to_find = ["116.6.44.68", "113.87.183.55"] #, "116.6.44.68", "113.87.183.52", "121.10.40.138", "121.10.40.57", "61.142.209.91", "59.42.39.207"
+    get_host_activeDomains(sips_to_find)
 

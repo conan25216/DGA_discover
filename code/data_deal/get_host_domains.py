@@ -73,6 +73,10 @@ def get_candicate_host_domains():
                 results[sip] = [k_v[0] for k_v in domain_value.items() if k_v[1]==0]
                 count += 1
         print(count)
+
+        for key in results:
+            results[key] = sorted(results[key], key=lambda x: len(x))
+
         with open(file_out, "w") as f_out:
             json.dump(results, f_out, sort_keys=True, indent=4)
 
